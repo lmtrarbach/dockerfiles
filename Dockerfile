@@ -25,6 +25,6 @@ COPY puppet.conf  /etc/puppet/puppet.conf
 COPY hostname /etc/hostname
 ENV PATH=/opt/puppetlabs/server/bin:/opt/puppetlabs/puppet/bin:/opt/puppetlabs/bin:$PATH
 #RUN puppet agent -t --server $var_puppetmaster
-
+#modificando
 COPY Dockerfile /
 
